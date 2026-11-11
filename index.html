@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ModaKids - Aprende los tipos de prendas de ropa de forma divertida.">
+  <title>ModaKids | Aprende sobre ropa</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="navbar container">
+      <a class="brand" href="#inicio" aria-label="ModaKids inicio">
+        <span class="brand-mark">♡</span>
+        <span>Moda<span>Kids</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#categorias">Categorías</a>
+        <a href="#coleccion">Colección</a>
+        <a href="#reconocedor">Reconocedor IA</a>
+        <a href="#juego">Mini juego</a>
+      </div>
+
+      <a class="nav-button" href="#reconocedor">Probar ahora →</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-decoration flower flower-1">✿</div>
+      <div class="hero-decoration flower flower-2">✿</div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">APRENDE • JUEGA • DESCUBRE</p>
+          <h1>¡Descubre el mundo de la <em>ropa!</em></h1>
+          <p class="hero-text">
+            Aprende a reconocer vestidos, camisetas, pantalones y mucho más
+            de una manera fácil, visual y divertida.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#categorias" class="btn btn-primary">Explorar prendas →</a>
+            <a href="#reconocedor" class="btn btn-light">Probar el reconocedor ✨</a>
+          </div>
+
+          <div class="hero-mini">
+            <span>🌸</span>
+            <div>
+              <strong>¡Aprender puede ser divertido!</strong>
+              <small>Diseñado especialmente para niños.</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Ilustración de prendas">
+          <div class="blob blob-one"></div>
+          <div class="blob blob-two"></div>
+          <div class="clothes-stack">
+            <div class="hanger">⌁</div>
+            <div class="dress-art">
+              <span class="dress-bow">♡</span>
+              <div class="dress-top"></div>
+              <div class="dress-skirt"></div>
+            </div>
+            <div class="shirt-art">
+              <div class="sleeve left"></div>
+              <div class="shirt-body">★</div>
+              <div class="sleeve right"></div>
+            </div>
+            <div class="pants-art">
+              <div class="waist"></div>
+              <div class="leg leg-left"></div>
+              <div class="leg leg-right"></div>
+            </div>
+          </div>
+          <div class="sparkle s1">✦</div>
+          <div class="sparkle s2">✧</div>
+          <div class="sparkle s3">♡</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section categories" id="categorias">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">APRENDE POR CATEGORÍA</p>
+          <h2>Conoce nuestras prendas</h2>
+          <p>Haz clic en una categoría para aprender qué es y para qué se usa.</p>
+        </div>
+
+        <div class="category-grid">
+          <button class="category-card pink" data-category="Vestidos">
+            <span class="category-icon">👗</span>
+            <strong>Vestidos</strong>
+            <small>Descubre →</small>
+          </button>
+
+          <button class="category-card cream" data-category="Camisetas">
+            <span class="category-icon">👕</span>
+            <strong>Camisetas</strong>
+            <small>Descubre →</small>
+          </button>
+
+          <button class="category-card blue" data-category="Pantalones">
+            <span class="category-icon">👖</span>
+            <strong>Pantalones</strong>
+            <small>Descubre →</small>
+          </button>
+
+          <button class="category-card lilac" data-category="Faldas">
+            <span class="category-icon">🩷</span>
+            <strong>Faldas</strong>
+            <small>Descubre →</small>
+          </button>
+
+          <button class="category-card peach" data-category="Chaquetas">
+            <span class="category-icon">🧥</span>
+            <strong>Chaquetas</strong>
+            <small>Descubre →</small>
+          </button>
+
+          <button class="category-card rose" data-category="Accesorios">
+            <span class="category-icon">🎀</span>
+            <strong>Accesorios</strong>
+            <small>Descubre →</small>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO STRIP -->
+    <section class="benefits">
+      <div class="container benefits-grid">
+        <div class="benefit"><span>🌷</span><div><strong>Fácil de entender</strong><small>Palabras sencillas y dibujos.</small></div></div>
+        <div class="benefit"><span>✨</span><div><strong>Aprende jugando</strong><small>Actividades para practicar.</small></div></div>
+        <div class="benefit"><span>📷</span><div><strong>Reconoce prendas</strong><small>Con nuestro modelo de IA.</small></div></div>
+        <div class="benefit"><span>💗</span><div><strong>Hecho para niños</strong><small>Colores suaves y amigables.</small></div></div>
+      </div>
+    </section>
+
+    <!-- FEATURED COLLECTION -->
+    <section class="section featured" id="coleccion">
+      <div class="container featured-grid">
+        <div class="featured-copy">
+          <p class="eyebrow">COLECCIÓN DESTACADA</p>
+          <h2>Una forma bonita de aprender</h2>
+          <p>
+            Mira ejemplos de prendas, conoce sus nombres y después intenta
+            identificarlas usando nuestro reconocedor.
+          </p>
+          <a href="#reconocedor" class="btn btn-primary">Ir al reconocedor →</a>
+          <div class="little-heart">♡</div>
+        </div>
+
+        <div class="featured-main">
+          <div class="big-card">
+            <div class="fashion-illustration yellow-dress">
+              <span>🌼</span>
+              <div class="dress-top"></div>
+              <div class="dress-skirt"></div>
+            </div>
+            <div class="big-card-label">
+              <small>PRENDA DESTACADA</small>
+              <strong>Vestido</strong>
+            </div>
+          </div>
+
+          <div class="small-card pink-card">
+            <span class="mini-fashion">👚</span>
+            <strong>Camiseta</strong>
+            <small>Para todos los días</small>
+          </div>
+
+          <div class="small-card lavender-card">
+            <span class="mini-fashion">🧢</span>
+            <strong>Accesorios</strong>
+            <small>¡Completa tu look!</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW ARRIVALS / LEARNING CARDS -->
+    <section class="section lessons">
+      <div class="container">
+        <div class="section-row">
+          <div>
+            <p class="eyebrow">APRENDE MÁS</p>
+            <h2>Prendas que debes conocer</h2>
+          </div>
+          <a href="#categorias" class="text-link">Ver categorías →</a>
+        </div>
+
+        <div class="lesson-grid">
+          <article class="lesson-card">
+            <div class="lesson-image dress-bg"><span>👗</span></div>
+            <h3>Vestido</h3>
+            <p>Una prenda que cubre el cuerpo y puede tener falda.</p>
+            <div class="stars">★★★★★ <small>Fácil</small></div>
+          </article>
+
+          <article class="lesson-card">
+            <div class="lesson-image shirt-bg"><span>👕</span></div>
+            <h3>Camiseta</h3>
+            <p>Una prenda cómoda que usamos en la parte superior.</p>
+            <div class="stars">★★★★★ <small>Fácil</small></div>
+          </article>
+
+          <article class="lesson-card">
+            <div class="lesson-image pants-bg"><span>👖</span></div>
+            <h3>Pantalones</h3>
+            <p>Prenda que cubre las piernas y tiene dos partes.</p>
+            <div class="stars">★★★★★ <small>Fácil</small></div>
+          </article>
+
+          <article class="lesson-card">
+            <div class="lesson-image jacket-bg"><span>🧥</span></div>
+            <h3>Chaqueta</h3>
+            <p>Ayuda a cubrirnos y protegernos cuando hace frío.</p>
+            <div class="stars">★★★★★ <small>Fácil</small></div>
+          </article>
+
+          <article class="lesson-card">
+            <div class="lesson-image skirt-bg"><span>🩷</span></div>
+            <h3>Falda</h3>
+            <p>Prenda que cubre la parte inferior del cuerpo.</p>
+            <div class="stars">★★★★★ <small>Fácil</small></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEACHABLE MACHINE -->
+    <section class="section recognizer" id="reconocedor">
+      <div class="container">
+        <div class="recognizer-heading">
+          <p class="eyebrow">NUESTRA PARTE DE INTELIGENCIA ARTIFICIAL</p>
+          <h2>¿Qué prenda es? 🤖👗</h2>
+          <p>
+            Aquí irá el modelo de <strong>Teachable Machine</strong>.
+            Primero entrenamos la IA con imágenes de las prendas y después
+            la conectamos a esta página.
+          </p>
+        </div>
+
+        <div class="recognizer-box">
+          <div class="camera-panel">
+            <div id="webcam-container" class="webcam-container">
+              <div class="camera-placeholder" id="cameraPlaceholder">
+                <span>📷</span>
+                <strong>Tu cámara aparecerá aquí</strong>
+                <small>La sección ya está lista para conectar con Teachable Machine.</small>
+              </div>
+            </div>
+
+            <div class="camera-actions">
+              <button class="btn btn-primary" id="startCamera">Activar cámara</button>
+              <button class="btn btn-light" id="stopCamera" disabled>Detener</button>
+            </div>
+          </div>
+
+          <div class="prediction-panel">
+            <span class="ai-badge">✨ MODELO IA</span>
+            <h3 id="predictionTitle">¡Enséñame una prenda!</h3>
+            <p id="predictionText">
+              Cuando conectemos el modelo, aquí aparecerá el nombre de la prenda
+              que la cámara reconoce.
+            </p>
+
+            <div class="prediction-result" id="predictionResult">
+              <div class="result-icon">👚</div>
+              <div>
+                <small>RESULTADO</small>
+                <strong id="predictionLabel">Esperando...</strong>
+              </div>
+            </div>
+
+            <div class="confidence">
+              <div class="confidence-top">
+                <span>Confianza</span>
+                <strong id="confidenceText">0%</strong>
+              </div>
+              <div class="progress"><span id="confidenceBar"></span></div>
+            </div>
+
+            <p class="model-note" id="modelStatus">
+              ⚙️ Modelo pendiente de conectar. Revisa <code>js/teachable.js</code>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MINI GAME -->
+    <section class="section game" id="juego">
+      <div class="container">
+        <div class="game-box">
+          <div class="game-copy">
+            <p class="eyebrow">MINI JUEGO</p>
+            <h2>¿Puedes adivinar la prenda?</h2>
+            <p id="gameQuestion">¿Cuál de estas es una prenda para la parte superior?</p>
+            <div class="score">Puntos: <span id="score">0</span> ⭐</div>
+          </div>
+
+          <div class="game-options" id="gameOptions">
+            <button data-answer="wrong">👖<span>Pantalón</span></button>
+            <button data-answer="correct">👕<span>Camiseta</span></button>
+            <button data-answer="wrong">👗<span>Vestido</span></button>
+          </div>
+
+          <p class="game-feedback" id="gameFeedback" aria-live="polite"></p>
+          <button class="btn btn-primary next-question" id="nextQuestion">Siguiente pregunta →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <div class="container newsletter-inner">
+        <div>
+          <p class="eyebrow">¡SIGAMOS APRENDIENDO!</p>
+          <h2>Descubre una prenda nueva cada día</h2>
+          <p>Un proyecto educativo hecho para aprender jugando. 💗</p>
+        </div>
+        <div class="newsletter-art">🌸 👗 🌼 👕 🎀</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#inicio"><span class="brand-mark">♡</span><span>Moda<span>Kids</span></span></a>
+        <p>Aprender sobre ropa nunca fue tan divertido.</p>
+      </div>
+      <div>
+        <strong>Explora</strong>
+        <a href="#categorias">Categorías</a>
+        <a href="#reconocedor">Reconocedor IA</a>
+        <a href="#juego">Mini juego</a>
+      </div>
+      <div>
+        <strong>Proyecto escolar</strong>
+        <p>HTML • CSS • JavaScript • Teachable Machine</p>
+      </div>
+    </div>
+    <div class="copyright">© 2026 ModaKids · Hecho con 💗 para aprender.</div>
+  </footer>
+
+  <!-- Teachable Machine -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/teachable.js"></script>
+</body>
+</html>
